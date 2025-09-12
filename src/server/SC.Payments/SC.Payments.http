@@ -1,0 +1,6 @@
+@SC.Payments_HostAddress = http://localhost:5027
+
+GET {{SC.Payments_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

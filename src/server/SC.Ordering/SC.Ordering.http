@@ -1,0 +1,6 @@
+@SC.Ordering_HostAddress = http://localhost:5215
+
+GET {{SC.Ordering_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

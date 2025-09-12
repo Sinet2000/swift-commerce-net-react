@@ -1,0 +1,6 @@
+@SC.Notification_HostAddress = http://localhost:5044
+
+GET {{SC.Notification_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

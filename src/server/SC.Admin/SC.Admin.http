@@ -1,0 +1,6 @@
+@SC.Admin_HostAddress = http://localhost:5197
+
+GET {{SC.Admin_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

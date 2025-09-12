@@ -1,0 +1,6 @@
+@SC.Inventory_HostAddress = http://localhost:5062
+
+GET {{SC.Inventory_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

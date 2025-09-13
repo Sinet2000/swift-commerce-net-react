@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.Admin", "SC.Admin\SC.Adm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.ServiceDefaults", "SC.ServiceDefaults\SC.ServiceDefaults.csproj", "{03A70976-9B0C-4A3D-BD56-09407E540CD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.AppHost", "CS.AppHost\CS.AppHost.csproj", "{4AD8AA16-27F0-4034-B4B0-3E495CBFFD8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{03A70976-9B0C-4A3D-BD56-09407E540CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A70976-9B0C-4A3D-BD56-09407E540CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A70976-9B0C-4A3D-BD56-09407E540CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD8AA16-27F0-4034-B4B0-3E495CBFFD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD8AA16-27F0-4034-B4B0-3E495CBFFD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD8AA16-27F0-4034-B4B0-3E495CBFFD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD8AA16-27F0-4034-B4B0-3E495CBFFD8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

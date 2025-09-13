@@ -6,9 +6,19 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Aspire.RabbitMQ.Client" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="../SC.ServiceDefaults/SC.ServiceDefaults.csproj" />
     <ProjectReference Include="..\SC.BuildingBlocks\SC.BuildingBlocks.csproj" />
     <ProjectReference Include="..\SC.Contracts\SC.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Infrastructure/Migrations/" />
   </ItemGroup>
 </Project>

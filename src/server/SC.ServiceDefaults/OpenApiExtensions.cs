@@ -35,6 +35,20 @@ public static partial class Extensions
         return app;
     }
 
+    public static IHostApplicationBuilder AddDefaultOpenApi(this IHostApplicationBuilder builder)
+    {
+        var openApi = builder.Configuration.GetSection("OpenApi");
+
+        if (!openApi.Exists())
+        {
+            return builder;
+        }
+
+        builder.Services.AddOpenApi();
+
+        return builder;
+    }
+
     //  public static IHostApplicationBuilder AddDefaultOpenApi(
     //     this IHostApplicationBuilder builder,
     //     IApiVersioningBuilder? apiVersioning = default)
